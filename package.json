@@ -5,8 +5,8 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest --watchAll --verbose --coverage",
-    "start": "npx netlify-lambda serve src",
-    "build": "npx netlify-lambda build src"
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
   },
   "engine": {
     "node": "18.16.0"
