@@ -2,7 +2,7 @@ const request = require('supertest');
 const {User} = require('../../../models/user');
 const bcrypt = require('bcrypt');
 
-require('../../../index');
+require('../../../../functions/index');
 
 describe('/api/auth', () => {
     let server;

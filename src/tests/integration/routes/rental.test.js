@@ -5,7 +5,7 @@ const {Movie} = require('../../../models/movie');
 const {User} = require('../../../models/user');
 const {Customer} = require('../../../models/customer');
 
-require('../../../index');
+require('../../../../functions/index');
 
 describe('/api/rentals', () => {
     let server;

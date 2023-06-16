@@ -4,7 +4,7 @@ const {Movie} = require('../../../models/movie');
 const {Genre} = require('../../../models/genre');
 const mongoose = require('mongoose');
 
-require('../../../index');
+require('../../../../functions/index');
 
 describe('/api/movies', () => {
     let server;

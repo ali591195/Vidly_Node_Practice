@@ -3,7 +3,7 @@ const { Genre } = require('../../../models/genre');
 const { User } = require('../../../models/user');
 const mongoose = require('mongoose');
 
-require('../../../index');
+require('../../../../functions/index');
 
 let server;
 

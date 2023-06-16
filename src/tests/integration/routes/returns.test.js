@@ -5,7 +5,7 @@ const { User } = require('../../../models/user');
 const mongoose = require('mongoose');
 const moment = require('moment');
 
-require('../../../index');
+require('../../../../functions/index');
 
 describe('/api/returns', () => {
     let server;
