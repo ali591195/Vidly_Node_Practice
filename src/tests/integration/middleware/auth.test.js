@@ -2,7 +2,7 @@ const request = require('supertest');
 const { Genre } = require('../../../models/genre');
 const { User } = require('../../../models/user');
 
-require('../../../../netlify/functions/index');
+require('../../../index');
 
 let server;
 

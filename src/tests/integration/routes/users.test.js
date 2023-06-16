@@ -1,7 +1,7 @@
 const request = require('supertest');
 const { User, validateEmail } = require('../../../models/user');
 
-require('../../../../netlify/functions/index');
+require('../../../index');
 
 describe('/api/users', () => {
     let server;

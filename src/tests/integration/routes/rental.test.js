@@ -5,7 +5,7 @@ const {Movie} = require('../../../models/movie');
 const {User} = require('../../../models/user');
 const {Customer} = require('../../../models/customer');
 
-require('../../../../netlify/functions/index');
+require('../../../index');
 
 describe('/api/rentals', () => {
     let server;

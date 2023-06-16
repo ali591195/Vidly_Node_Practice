@@ -3,7 +3,7 @@ const { User } = require('../../../models/user');
 const {Customer} = require('../../../models/customer');
 const mongoose = require('mongoose');
 
-require('../../../../netlify/functions/index');
+require('../../../index');
 
 describe('/api/customers', () => {
     let server;

@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "test": "jest --watchAll --verbose --coverage",
-    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "start": "npx netlify-lambda serve src",
     "build": "npx netlify-lambda build src"
   },
   "engine": {
@@ -31,6 +31,7 @@
     "moment": "^2.29.4",
     "mongoose": "^7.2.2",
     "morgan": "^1.10.0",
+    "netlify-lambda": "^2.0.16",
     "pug": "^3.0.2",
     "serverless-http": "^3.2.0",
     "winston": "^3.9.0",

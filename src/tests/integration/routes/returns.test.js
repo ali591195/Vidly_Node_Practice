@@ -5,7 +5,7 @@ const { User } = require('../../../models/user');
 const mongoose = require('mongoose');
 const moment = require('moment');
 
-require('../../../../netlify/functions/index');
+require('../../../index');
 
 describe('/api/returns', () => {
     let server;

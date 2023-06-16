@@ -4,7 +4,7 @@ const {Movie} = require('../../../models/movie');
 const {Genre} = require('../../../models/genre');
 const mongoose = require('mongoose');
 
-require('../../../../netlify/functions/index');
+require('../../../index');
 
 describe('/api/movies', () => {
     let server;
