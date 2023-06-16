@@ -18,13 +18,6 @@ module.exports = function() {
         })
         );   
     winston.add(new winston.transports.File({ filename: 'filelog.log' }));
-    winston.add(new winston.transports.MongoDB({
-        db: db,
-        level: 'error',
-        options: {
-            useUnifiedTopology: true
-        }
-    }));
     winston.add(new winston.transports.Console({ 
         format: winston.format.combine(
             winston.format.colorize(),
